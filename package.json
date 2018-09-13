@@ -1,0 +1,48 @@
+{
+  "name": "collisionparticles",
+  "version": "1.0.0",
+  "description": "html5 animation javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "github": "git pull --rebase origin master",
+    "git": "git push origin master",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server -d --hot --config webpack.config.js --watch && webpack --watch",
+    "auto": "npm run watch | npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theideasaler/collisioinParticles.git"
+  },
+  "keywords": [
+    "html5",
+    "animation",
+    "collision",
+    "detection"
+  ],
+  "author": "Neo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theideasaler/collisioinParticles/issues"
+  },
+  "homepage": "https://github.com/theideasaler/collisioinParticles#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.1.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "jquery": "^3.3.1",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "postcss-loader": "^2.1.6",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}

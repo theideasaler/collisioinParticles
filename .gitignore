@@ -1,0 +1,3 @@
+#remove node_modeuls from source control
+
+/node_modules/
