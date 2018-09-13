@@ -1,6 +1,5 @@
 {
-  "name": "Special boucing event",
-  "version": "1.0.0",
+  "name": "boucinganimaiton",
   "description": "html5 animation javascript",
   "main": "index.js",
   "scripts": {
