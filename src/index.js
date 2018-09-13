@@ -102,8 +102,9 @@ $(() => {
             let distanceFromClickCenter = Math.sqrt(Math.pow(clickVerticalDistance, 2) + Math.pow(e.clientX - particle.x, 2));
             let distanceRatio = distanceFromClickCenter / clickVerticalDistance;
             if(particle.y >= canvas.height - particle.radius){
-                particle.dy = (-30 / distanceRatio ) * particle.basicEnergyLossRatio;
-                particle.dx = getRange(-2, 2);
+                particle.dy = (-30 / distanceRatio );
+                particle.dx = getRange(0, 0);
+                particle.basicEnergyLoss = 1;
             }
         });
     });
